@@ -203,19 +203,19 @@ These improvements would enhance the model's performance, provide deeper insight
 ## 9. Project Structure
 
 ```
-project_root/ 
+customer-churn-prediction/ 
 │ ├── data/ 
-│ ├── dataset.xlsx 
-│ └── features_description.xlsx 
+│    ├── dataset.xlsx 
+│    └── features_description.xlsx 
 │ ├── src/ 
-│ ├── data_loader.py 
-│ ├── eda.py 
-│ ├── feature_engineering.py 
-│ ├── model.py 
-│ └── visualization.py 
+│    ├── data_loader.py 
+│    ├── eda.py 
+│    ├── feature_engineering.py 
+│    ├── model.py 
+│    └── visualization.py 
 │ ├── outputs/ 
-│ └── (Generated plots and results) 
+│    └── (Generated plots and results) 
 │ ├── main.py 
-├── requirements.txt 
-└── README.md
+│ ├── requirements.txt 
+│ ├── README.md
 ```
